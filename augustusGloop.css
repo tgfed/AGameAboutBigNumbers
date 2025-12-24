@@ -1,0 +1,112 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+#gVDisplay {
+	color: red;
+}
+
+#PrestigeLayer0 {
+	color: orange;
+}
+
+#button1 {
+	background-color: white;
+	border: 2px solid gray;
+	color: black;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1b {
+	background-color: black;
+	border: 2px solid red;
+	color: white;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button2 {
+	background-color: white;
+	border: 1px solid gray;
+	color: black;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button3 {
+	background-color: black;
+	border: 2px solid red;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button4 {
+	background-color: black;
+	border: 2px solid orange;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button5 {
+	background-color: navy;
+	border: 2px solid blue;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button6 {
+	background-color: lime;
+	border: 2px solid green;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button7 {
+	background-color: blue;
+	border: 2px solid cyan;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button8 {
+	background-color: grey;
+	border: 2px solid purple;
+	color: white;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
+
+#button9 {
+	background-color: yellow;
+	border: 2px solid magenta;
+	color: black;
+	padding: 10px 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+	cursor: pointer
+}
