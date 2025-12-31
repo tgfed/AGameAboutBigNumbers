@@ -11,6 +11,42 @@ body {
 	color: orange;
 }
 
+#PrestigeLayer1 {
+	color: navy;
+}
+
+#PrestigeLayer2 {
+	color: lime;
+}
+
+#PrestigeLayer3 {
+	color: blue;
+}
+
+#PrestigeLayer4 {
+	color: grey;
+}
+
+#PrestigeLayer5 {
+	color: yellow;
+}
+
+#PrestigeLayer6 {
+	color: yellow;
+}
+
+#PrestigeLayer7 {
+	color: yellow;
+}
+
+#PrestigeLayer8 {
+	color: yellow;
+}
+
+#PrestigeLayer9 {
+	color: yellow;
+}
+
 #button1 {
 	background-color: white;
 	border: 2px solid gray;
@@ -24,6 +60,26 @@ body {
 #button1b {
 	background-color: black;
 	border: 2px solid red;
+	color: white;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1c {
+	background-color: black;
+	border: 2px solid orange;
+	color: white;
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1d {
+	background-color: navy;
+	border: 2px solid blue;
 	color: white;
 	padding: 10px 20px;
 	font-size: 24px;
