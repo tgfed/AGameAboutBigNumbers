@@ -2,7 +2,7 @@
 var gDelta = ExpantaNum(1);
 var gValue = ExpantaNum(0);
 var gPos = ExpantaNum(0);
-var NilPrestige = ExpantaNum(0);
+var NilPrestige = ExpantaNum(10);
 const Proplyd = ExpantaNum(1e10);
 const Eridanus = ExpantaNum(10);
 var OnePrestige = ExpantaNum(0);
@@ -208,7 +208,7 @@ function PNAutoclicker() {
 	if (NilPrestige >= (1)) {
 		NilPrestige = NilPrestige.minus(1).round();
 		clearInterval(PNAwork);
-		PNAuto = PNAuto.plus(Eridanus.div(10).mul(GiveMeZeIncrementorForZeBebsi));
+		PNAuto = PNAuto.plus(BaseFloorIt.mul(GiveMeZeIncrementorForZeBebsi));
 		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 clearInterval(PNAwork);
 		PNAwork = setInterval(DeltaAuto, Speed);
