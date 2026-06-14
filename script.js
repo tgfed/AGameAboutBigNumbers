@@ -65,7 +65,6 @@ function UpdatusMaximus() {
 	document.getElementById('PrestigeLayer9').textContent = UnPrestige;
 	document.getElementById('FactorCost').textContent = (Eridanus.mul(Eridanus).mul(Factor.add(1)).mul(Facor94Diskont)).div(C2Reward).toString();
 	document.getElementById('IPify').textContent = BaseFloorIt.add(OnePrestige.div(100).mul(U42));
-	Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		if (CurrentUx3.gt(1.5)) {
 		FloorIt = BaseFloorIt.add(OnePrestige.div(100).mul(U42));
 	}
@@ -209,6 +208,7 @@ function PNAutoclicker() {
 	if (NilPrestige >= (1)) {
 		NilPrestige = NilPrestige.minus(1).round();
 		clearInterval(PNAwork);
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		PNAuto = PNAuto.plus(Eridanus.div(10).mul(GiveMeZeIncrementorForZeBebsi));
 		PNAwork = setInterval(DeltaAuto, Speed);
 	}
@@ -226,6 +226,7 @@ function OrdintolUnus1One() {
 
 function DeltaAuto() {
 	if (PNAuto > 0) {
+	Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 	if (gValue.lt(Breaker)) {
 	gValue = gValue.plus((gDelta.plus(Factor.add(IUforFreeTotallyLegit100PercentTrue2024NotAScam200PercentSureConfidentWorking2026).mul(BoughtU11.gt(0.5)?2:1).mul(Giggle))).mul((PNAuto.mul(DivTime).div(C1Reward).minus(50)).div(100).plus(1).round()).mul(FloorIt).mul(Tenders)).floor();
 	} else {
@@ -248,6 +249,7 @@ function Prestige1Trigger() {
 		gValue = gValue.minus(gValue);
 		NilPrestige = NilPrestige.minus(NilPrestige);
 		clearInterval(PNAwork);
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		PNAuto = PNAuto.minus(PNAuto).add(U41).add(U43);
 		Factor = Factor.minus(Factor).add(U43);
 		PNAwork = setInterval(DeltaAuto, Speed);
