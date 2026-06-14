@@ -5,46 +5,57 @@ body {
 
 #gVDisplay {
 	color: red;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer0 {
 	color: orange;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer1 {
 	color: navy;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer2 {
 	color: lime;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer3 {
 	color: blue;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer4 {
 	color: grey;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer5 {
 	color: yellow;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer6 {
 	color: yellow;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer7 {
 	color: yellow;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer8 {
 	color: yellow;
+	font-family: "Verdana";
 }
 
 #PrestigeLayer9 {
 	color: yellow;
+	font-family: "Verdana";
 }
 
 #button1 {
@@ -85,6 +96,74 @@ body {
 	font-size: 24px;
 	margin: 2px 0px;
 	cursor: pointer
+}
+
+#button1dA {
+	background-color: navy;
+	border: 2px solid blue;
+	width: 16.66vw;
+	height: 192px;
+    box-sizing: border-box;
+	color: white;
+	padding: 50px 20px;
+	font-size: 24px;
+	text-align: justify;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1dB {
+	background-color: navy;
+	border: 2px solid blue;
+	width: 50vw;
+	height: 192px;
+    box-sizing: border-box;
+	color: white;
+	padding: 50px 20px;
+	font-size: 24px;
+	text-align: justify;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1dA:active {
+	background-color: lime;
+	border: 2px solid blue;
+	width: 16.66vw;
+	height: 192px;
+    box-sizing: border-box;
+	color: white;
+	padding: 50px 20px;
+	font-size: 24px;
+	text-align: justify;
+	margin: 2px 0px;
+	cursor: pointer
+}
+
+#button1dfILLER {
+	background-color: black;
+	border: 2px solid white;
+	width: 16.66vw;
+	height: 192px;
+    box-sizing: border-box;
+	color: white;
+	padding: 50px 20px;
+	font-size: 24px;
+	text-align: justify;
+	margin: 2px 0px;
+}
+
+.gorb {
+	width: 8vw;
+	height: 8vw;
+	background-color: grey;
+	font-size: 16px;
+	color: white;
+	border: 2px solid red;
+	display: flex;
+	align-items: center;
+	position: relative;
+	font-family: "Verdana";
 }
 
 #button2 {

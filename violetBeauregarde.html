@@ -1,53 +1,102 @@
 <head>
-	<title>A game about big numbers</title>
+	<title>A game about big numbers v1.-1.1</title>
 	<link rel="icon" type="image/x-icon" href="ordinals.ico">
-	<script src="https://cdn.jsdelivr.net/npm/break_infinity.js@2"></script>
 	<link rel="stylesheet" href="augustusGloop.css">
 </head>
 <body>
-	<p style="font-size:60px;"><span id="gVdisplay">dummy string</span> | <span id="PrestigeLayer0">dummy string</span> | <span id="PrestigeLayer1">dummy string</span> | <span id="PrestigeLayer2">dummy string</span> | <span id="PrestigeLayer3">dummy string</span> | <span id="PrestigeLayer4">dummy string</span> | <span id="PrestigeLayer5">dummy string</span> | <span id="PrestigeLayer6">dummy string</span> | <span id="PrestigeLayer7">dummy string</span> | <span id="PrestigeLayer8">dummy string</span> | <span id="PrestigeLayer9">dummy string</span></p>
-	<button id="button2">Achievements (not working)</button>
+	<p style="font-size:60px;"><span id="gVdisplay">ψ<sub>0</sub>(Ω<sup>Ω<sup>Ω<sup>2</sup>ω</sup></sup>)</span> | <span id="PrestigeLayer0">dummy string</span> | <span id="PrestigeLayer1">dummy string</span> | <span id="PrestigeLayer2">dummy string</span> | <span id="PrestigeLayer3">dummy string</span> | <span id="PrestigeLayer4">dummy string</span> | <span id="PrestigeLayer5">dummy string</span> | <span id="PrestigeLayer6">dummy string</span> | <span id="PrestigeLayer7">dummy string</span> | <span id="PrestigeLayer8">dummy string</span> | <span id="PrestigeLayer9">dummy string</span></p>
+	<button id="button2" class="CharlieBucket" onclick="NagrodaNobla()">Achievements (weird aethetisc)</button>
 	<button id="button2">Statistics (also not working)</button>
 	<button id="button2">Options (this too)</button>
-	<button id="button3" onclick="DeltaTab()">Numbers</button>
-	<button id="button4" onclick="DignitasVarTab()">Prestige Layer 0</button>
-	<button id="button5" onclick="DignitasInfinitumTab()">Prestige Layer 1</button>
-	<button id="button6" onclick="EpsilonTab()">Prestige Layer 2</button>
-	<button id="button7" onclick="ZetaTab()">Prestige Layer 3</button>
-	<button id="button8" onclick="PhiInfinitumTab()">Prestige Layer 4</button>
-	<button id="button9" onclick="FefermanSchutteTab()">Prestige Layer 5</button>
-	<button id="button9" onclick="VeblenTab()">Prestige Layer Unimplemented</button>
-	<button id="button9" onclick="BachmannHowardTab()">Prestige Layer Unimplemented</button>
-	<button id="button9" onclick="BucholzTab()">Prestige Layer Unimplemented</button>
+	<button id="button3" class="CharlieBucket" onclick="DeltaTab()">Numbers</button>
+	<button id="button4" class="CharlieBucket" onclick="DignitasVarTab()">Prestige Layer 0</button>
+	<button id="button5" class="CharlieBucket" onclick="DignitasInfinitumTab()">Prestige Layer 1</button>
+	<button id="button6" class="CharlieBucket" onclick="EpsilonTab()">Prestige Layer 2</button>
+	<button id="button7" class="CharlieBucket" onclick="ZetaTab()">Prestige Layer 3</button>
+	<button id="button8" class="CharlieBucket" onclick="PhiInfinitumTab()">Prestige Layer 4</button>
+	<button id="button9" class="CharlieBucket" onclick="FefermanSchutteTab()">Prestige Layer 5</button>
+	<button id="button9" onclick="VeblenTab()">Prestige Layer Unimplemented - hugenumberjs</button>
+	<button id="button9" onclick="BachmannHowardTab()">Prestige Layer Unimplemented - Bachmann-Howard ordinals</button>
+	<button id="button9" onclick="BucholzTab()">Prestige Layer Unimplemented - Up to Extended Buchholz Ordinal</button>
 	<br>
-	<div id="Delta">
+	<div id="Gloria" class="greagol">
+	<button id="id0" class="gorb">You always start somewhere.</button>
+	<button id="id1" class="gorb">Your Dignity is Variable</button>
+	<button id="id2" class="gorb">Not quite infinite</button>
+	<button id="id3" class="gorb">tεtrational!</button>
+	<button id="id4" class="gorb">Less purple than i remembered</button>
+	<button id="id5" class="gorb">In layman's terms: A bunch of φs</button>
+	<button id="id6" class="gorb">Ternary > Binary</button>
+	<button id="id7" class="gorb">2+2=10 in Base4</button>
+	<button id="id8" class="gorb">Ordinal Markup < this game</button>
+	<button id="id9" class="gorb">RIP computer</button>
+	</div>
+	<div id="Delta" class="greagol">
 	<button id="button1" onclick="DeltaTrigger()">Increase the value by 1</button>
 	<br>
-	<button id="button1" onclick="PrestigeNilTrigger()">If the value is above 100, then convert 100 Currency for PL0</button>
+	<button id="button1" onclick="PrestigeNilTrigger()">If the value is above 100, then convert your value for <span id="ExpectedPrestige0">0</span> PL0</button>
 	</div>
-	<div id="DignitasVar">
+	<div id="DignitasVar" class="greagol">
 	<button id="button1b" onclick="PNAutoclicker()">Buy an incrementor for Currency.</button>
 	<br>
-	<button id="button1c" onclick="PNFactorShiftA()">Buy an upgrade you need 1 Prestige Layer 0 Upgrade unlock for Currency.</button>
+	<button id="button1c" onclick="PNFactor()">Buy an Incrementor Upgrade. Cost: <span id="FactorCost">100</span> PL0</button>
 	<br>
-	<button id="button1c" onclick="PNFactorShiftB()">Buy another upgrade you need 2 Prestige Layer 0 Upgrade unlocks for Currency.</button>
+	</div>
+	<div id="DignitasInfinitum" class="greagol">
+	<button id="button1d" onclick="Prestige1Trigger()">Restart for 1 IP</button>
 	<br>
-	<button id="button1c" onclick="PNFactorShiftC()">Buy yet another upgrade you need 3 Prestige Layer 0 Upgrade unlocks for Currency.</button>
+	<button id="button5" class="MikeTeavee" onclick="RU()">Regular Upgrades</button>
+	<button id="button5" class="MikeTeavee" onclick="BIU()">Broken ω<sup>ω</sup> Upgrades</button>
+	<button id="button5" class="MikeTeavee" onclick="T1C()">T1 Challenges</button>
+	<button id="button5" class="MikeTeavee" onclick="T2C()">T2 Challenges</button>
 	<br>
-	<button id="button1c" onclick="PNFactorShiftD()">Buy this layers final upgrade you need 4 Prestige Layer 0 Upgrade unlocks for Currency.</button>
-	<button id="button1c" onclick="PNFactorShift()">Buy a button function for Currency.</button>
-	<button id="button1c" onclick="PNUpgraday1()">For each logarithm 10 of the gValue, gain a +1x boost to value production.</button>
+	<div id="Oopgradays" class="grangol">
+	<button id="button1dfILLER">Row 1 upgrades, give basic perks. Relatively inexpensive.</button>
+	<button id="button1dA" onclick="P1T1Upgrade11()">Incrementor Upgrades give +1 more α. Cost: 1 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade21()">Reduce time between Incrementor cycles by 25%. Cost: 1 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade31()">Get 1.2x more floored PL0 per Prestige. Cost: 1 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade41()">After ICNFing, start off with 1 incrementor. Cost: 50 IP</button>
+	<br>
+	<button id="button1dfILLER">Row 2 upgrades, give better perks. Slightly more expensive.</button>
+	<button id="button1dA" onclick="P1T1Upgrade12()">Incrementor Upgrades cost 10% less Cost: 2 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade22()">Generate 1 PL0 every 100 seconds Cost: 3 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade32()">IP boosts IUs by <span id="IPify">dummy string</span>x. Cost: 5 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade42()">Double U32 boost by 2x. Cost: 100 IP</button>
+	<br>
+	<button id="button1dfILLER">Row 3 upgrades, give even better perks. More expensive.</button>
+	<button id="button1dA" onclick="P1T1Upgrade13()">Divide Incrementor cycle time by 1+ICNF/100. Cost: 10 Ip</button>
+	<button id="button1dA" onclick="P1T1Upgrade23()">Autobuy Incrementors whenever possible. Cost: 15 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade33()">Incrementors boosts IUs by <span id="Inqrifii">dummy string</span>x. Cost: 30 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade43()">After ICNFing, start off with 2 incrementors and 1 IU. Cost: 150 IP</button>
+	<br>
+	<button id="button1dfILLER">Row 4 upgrades, give massive perks. The most expensive.</button>
+	<button id="button1dA" onclick="P1T1Upgrade14()">Gain a free Incrementor upgrade every 10^5 gValue. Cost: 50 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade24()">Buy 2 Incrementors for the price of 1 Cost: 100 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade34()">Double IP received on ICNF Can stack. Cost: 150 IP</button>
+	<button id="button1dA" onclick="P1T1Upgrade44()">Break ω<sup>ω</sup>. Doing so, extend the maximum to ε<sub>0</sub> Cost: 200 IP</button>
+	<br>
+	<button id="button1dfILLER">Repeater upgrades, gives you better rewards, but get even more expensive.</button>
+	<button id="button1dA" onclick="Tendonitis()">Double all Delta, including your delta. Cost: <span id="Golgaiaparatis">dummy string</span> IP</button>
+	<button id="button1dA" onclick="Arthuritis()">Double your IP received on ICNF. Can stack.. Cost: <span id="Midocondrya">dummy string</span> IP</button>
 	</div>
-	<div id="DignitasInfinitum">
-	<button id="button1d" onclick="Prestige1Trigger()">If the value is above 10^100, then reset all progress for 1 Prestige1.</button>
+	<div id="Chalengeys" class="grangol">
+	<button id="button1dB" onclick="Challenge1T1()">T1 Challenge 1: Incrementor cycle time quadrupled. Reward: Incrementor cycle time is quartered</button>
+	<button id="button1dB" onclick="Challenge2T1()">T1 Challenge 2: IUs cannot be bought. Only available with U14 and U43 Reward: All IU costs are divided by 3.</button>
 	</div>
-	<div id="Epsilon">
 	</div>
-	<div id="Zeta">
+	<div id="Epsilon" class="greagol">
+		microsievert
 	</div>
-	<div id="PhiInfinitum">
+	<div id="Zeta" class="greagol">
+		millisievert
 	</div>
-	<div id="FefermanSchutte">
+	<div id="PhiInfinitum" class="greagol">
+		sievert
 	</div>
+	<div id="FefermanSchutte" class="greagol">
+		kilosievert
+	</div>
+	<script src="ExpantaNum.js-master/ExpantaNum.min.js"></script>
 	<script src="VerucaSalt.js"></script>
+	<script src="acheivewhatyouneed.js"></script>
 </body>
