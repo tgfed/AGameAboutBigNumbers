@@ -207,9 +207,9 @@ let PNAwork = null;
 function PNAutoclicker() {
 	if (NilPrestige >= (1)) {
 		NilPrestige = NilPrestige.minus(1).round();
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		clearInterval(PNAwork);
 		PNAuto = PNAuto.plus(Eridanus.div(10).mul(GiveMeZeIncrementorForZeBebsi));
-		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		PNAwork = setInterval(DeltaAuto, Speed);
 	}
 }
@@ -226,12 +226,12 @@ function OrdintolUnus1One() {
 
 function DeltaAuto() {
 	if (PNAuto > 0) {
-	Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 	if (gValue.lt(Breaker)) {
 	gValue = gValue.plus((gDelta.plus(Factor.add(IUforFreeTotallyLegit100PercentTrue2024NotAScam200PercentSureConfidentWorking2026).mul(BoughtU11.gt(0.5)?2:1).mul(Giggle))).mul((PNAuto.mul(DivTime).div(C1Reward).minus(50)).div(100).plus(1).round()).mul(FloorIt).mul(Tenders)).floor();
 	} else {
 	gValue=Breaker;
 	}
+	Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 }}
 
 function PNFactor() {
@@ -248,6 +248,7 @@ function Prestige1Trigger() {
 		OnePrestige = OnePrestige.add(gValue.div(Proplyd).floor().logBase(ExpantaNum.pow(Eridanus,Eridanus)).floor().mul(HenryVIII).add(HenryVIII));
 		gValue = gValue.minus(gValue);
 		NilPrestige = NilPrestige.minus(NilPrestige);
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		clearInterval(PNAwork);
 		PNAuto = PNAuto.minus(PNAuto).add(U41).add(U43);
 		Factor = Factor.minus(Factor).add(U43);
@@ -297,6 +298,7 @@ function P1T1Upgrade13() {
 		if (CurrentUx1.gt(1.5)) {
 		OnePrestige = OnePrestige.minus(10);
 		Gedagedigedagedao = BaseFloorIt.add(OnePrestige.div(100));
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		clearInterval(PNAwork);
 		PNAwork = setInterval(DeltaAuto, Speed);
 		CurrentUx1 = CurrentUx1.add(1);
@@ -321,6 +323,7 @@ function P1T1Upgrade21() {
 		if (CurrentUx2.lt(.5)) {
 			OnePrestige = OnePrestige.minus(1);
 			DivTime = DivTime.div(.75);
+			Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 			clearInterval(PNAwork);
 			PNAwork = setInterval(DeltaAuto, Speed);
 			CurrentUx2 = CurrentUx2.add(1);
@@ -461,6 +464,7 @@ function Challenge1T1() {
 	if (C1Reward.lt(1.5)) {
 		gValue = gValue.minus(gValue);
 		NilPrestige = NilPrestige.minus(NilPrestige);
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		clearInterval(PNAwork);
 		PNAuto = PNAuto.minus(PNAuto).add(U41).add(U43);
 		Factor = Factor.minus(Factor).add(U43);
@@ -473,6 +477,7 @@ function Challenge2T1() {
 	if (C2Reward.lt(1.5)) {
 		gValue = gValue.minus(gValue);
 		NilPrestige = NilPrestige.minus(NilPrestige);
+		Speed = Math.floor(500/(PNAuto).mul(DivTime).mul(Gedagedigedagedao).mul(C1Reward.gt(.5)?1:4).div(C1.gt(.5)?4:1));
 		clearInterval(PNAwork);
 		PNAuto = PNAuto.minus(PNAuto).add(U41).add(U43);
 		Factor = Factor.minus(Factor).add(U43);
