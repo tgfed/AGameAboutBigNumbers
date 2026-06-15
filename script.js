@@ -215,13 +215,15 @@ clearInterval(PNAwork);
 	}
 }
 
+let OD1work = null;
+
 function OrdintolUnus1One() {
 	if (NilPrestige.gte(Eridanus.pow((Eridanus.mul(2)).plus(OrdintolUno.div(Eridanus).floor.mul(2))))) {
 		NilPrestige = NilPrestige.minus(Eridanus.pow((Eridanus.mul(2)).plus(OrdintolUno.div(Eridanus).floor.mul(2))));
 		OrdintolUno = OrdintolUno.plus(1);
-		clearInterval(PNAwork);
+		clearInterval(OD1work);
 		PNAuto2 = PNAuto.plus((Eridanus.div(Eridanus)).mul((OrdintolUno.div(50).floor()).plus(1)));
-		PNAwork = setInterval(PNAuto2,(Eridanus.mul(50)).div(OrdintolUno));
+		OD1work = setInterval(PNAuto2,(Eridanus.mul(50)).div(OrdintolUno));
 	}
 }
 
