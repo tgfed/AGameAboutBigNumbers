@@ -63,6 +63,10 @@ function UpdatusMaximus() {
 	document.getElementById('PrestigeLayer7').textContent = SevenPrestige;
 	document.getElementById('PrestigeLayer8').textContent = ERightPrestige;
 	document.getElementById('PrestigeLayer9').textContent = UnPrestige;
+
+document.getElementById('beluga').textContent = PNAuto;
+
+document.getElementById('humpback').textContent = Factor;
 	document.getElementById('FactorCost').textContent = (Eridanus.mul(Eridanus).mul(Factor.add(1)).mul(Facor94Diskont)).div(C2Reward).toString();
 	document.getElementById('IPify').textContent = BaseFloorIt.add(OnePrestige.div(100).mul(U42));
 		if (CurrentUx3.gt(1.5)) {
